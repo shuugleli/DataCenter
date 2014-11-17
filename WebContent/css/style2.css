@@ -1,0 +1,119 @@
+body{ 
+		repeat;margin: 0;
+		padding: 0;
+	}
+.container{
+	width:100%;
+	height:600px;
+	/*background-color:#F5E8B0;*/
+	margin : 0.5px auto 0px auto;
+	float:right;
+}
+.header{
+	width:100%;
+	height: 120px;
+    background: url(../img/head.jpg);
+	repeat-x;
+	float:right;
+}
+.navigator{
+	background: #fff url(../img/nav.png)
+	font-family: "微软雅黑","华文细黑","黑体","Helvetica Neue",Helvetica,Arial,sans-serif;
+	}
+div ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color:#114E91;
+padding:0 30% 0 5%;
+}
+div ul li
+{
+	float:left;
+}
+div ul li a:link,a:visited
+{
+display:block;
+width:120px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#114E91;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+
+}
+
+div ul li a:hover,a:active
+{
+background-color:#cc0000;
+}
+.mapContent{
+	float:left;
+	width:60%;
+	height:600px;
+	border-style: outset;
+	margin : 0.5% 0 0 2%;
+}
+.queryContent{
+	float:right;
+	width:35%;
+	height:600px;
+	border-style: outset;
+	margin : 0.5% 2% 0 0;
+}
+.show{
+	float:left;
+	width:624px;
+	height:100px;
+	display:none;
+}
+div h1{
+	padding-top:40px;
+	font-family: "微软雅黑","华文细黑","黑体","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 25px;
+	line-height: 20px;
+	color: #fff;
+	text-align:center;
+}
+.footer-top{
+	/*background: url(../img/foot3.jpg);*/
+	background-color:#0e4287;
+	width:100%;
+	height:30px;
+	float:left;
+	repeat-x;
+	padding：0px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	text-align:right;
+}
+.footer-bottom{
+	/*background: url(../img/foot3.jpg);*/
+	background-color:#04387d;
+	width:100%;
+	height:70px;
+	float:left;
+	repeat-x;
+	padding：0px;
+	font-size: 16px;
+	font-weight: 400;
+}
+.footer-font{
+font-family: "微软雅黑","华文细黑","黑体","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 20px;
+color: #fff;
+}
+
+div p{
+font-family: "微软雅黑","华文细黑","黑体","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 20px;
+color: #fff;
+text-align:center;
+}
